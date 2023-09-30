@@ -109,10 +109,8 @@ input, select {
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
-    height: 720px;
-    /* background-image: url('mar.jpg'); 
-    background-repeat: no-repeat; */
+    align-items: center;
+    width: 100%;
 }
 
 .logo{
@@ -126,13 +124,17 @@ input, select {
 }
 
 nav{
-    background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  height: 150px;
     width: 15%;
 }
 
 nav ul {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    width: 100%;
 
 }
 
@@ -149,14 +151,6 @@ nav ul li a{
 
 }
 
-.contenedor {
-  background-image: url('https://generacionelixir.com/wp-content/uploads/2023/09/%C2%BFComo-mantener-la-coordinacion-y-el-equilibrio.png'); /* Reemplaza la URL con la dirección de la imagen en internet */
-  background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  /* Puedes ajustar otras propiedades de fondo según tus necesidades, como background-position */
-  /* También puedes agregar estilos adicionales a tu contenido dentro de .contenedor */
-  /* Por ejemplo: color de texto, margen, etc. */
-}
 
 .contenedor-slider{
   display: flex;
@@ -168,8 +162,14 @@ nav ul li a{
 .contenedor-slider img{
   width: 30%;
   margin-bottom: 50px;
+  box-shadow: 0px 0px 15px 10px white;
+  border-radius: 50%;
 }
 main{
+  background-image: url('../../img/mar.jpg');
+  background-image: url('https://generacionelixir.com/wp-content/uploads/2023/09/%C2%BFComo-mantener-la-coordinacion-y-el-equilibrio.png'); /* Reemplaza la URL con la dirección de la imagen en internet */
+  background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -189,6 +189,8 @@ main{
 }
 
 .contenedor-parrafo{
+  color: white;
+  font-weight: 800;
   display: flex;
   flex-direction: column;
   align-items: center;
