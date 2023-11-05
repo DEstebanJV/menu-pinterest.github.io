@@ -254,6 +254,7 @@ section{
   margin: 0 auto;
   flex-wrap: wrap;
   margin-bottom: 30px;
+  gap: 20px;
 }
 .estudiantes{
   flex-wrap: wrap;
